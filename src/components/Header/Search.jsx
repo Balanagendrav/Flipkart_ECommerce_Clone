@@ -13,6 +13,7 @@ const SearchContainer = styled(Box)`
     border-radius:2px;
     margin-left:10px;
     display:flex;
+    font-size:13px; //added font size
 `
 
 const InputSearchBase = styled(InputBase)`

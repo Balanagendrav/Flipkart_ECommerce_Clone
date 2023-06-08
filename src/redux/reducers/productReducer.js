@@ -1,16 +1,3 @@
-// import * as actionTypess from '../constants/productConstant'
-
-// export const getProductsReducer = (state = {products:[]},action)=>{
-//     switch(action.type){
-//         case actionTypess.GET_PRODUCTS_SUCCESS:
-//             return ({products:action.payload})
-//         case actionTypess.GET_PRODUCTS_FAIL:
-//             return ({error:action.payload})
-//         default:
-//             return state
-//     }
-// }
-
 import * as actionTypes from '../constants/productConstant'
 
 export const getProductsReducer = (state = {products:[]},action)=>{

@@ -7,7 +7,7 @@ const Component = styled(Box)(({theme})=>({
     justifyContent:'space-between',
     overflow:'hidden',
     [theme.breakpoints.down('lg')]:{
-        margin:0,
+        margin:'55px 30px 0 30px', //Margin modified from Zero
     }
 }))
 

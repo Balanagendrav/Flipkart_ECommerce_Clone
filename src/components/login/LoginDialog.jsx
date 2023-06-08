@@ -1,9 +1,9 @@
-import { useState, useEffect,useContext } from "react"
+import { useState,useContext } from "react"
 import { Dialog,Box,TextField, Typography, Button,styled} from "@mui/material"
 //import { authenticateSignup,authenticateLogin } from "../service/api"
 import { auth } from "../../firebase.config";
-import { signInWithEmailAndPassword,getAuth,createUserWithEmailAndPassword,updateProfile,onAuthStateChanged } from "firebase/auth";
-import { getDatabase, ref, set,onValue } from "firebase/database";
+import { signInWithEmailAndPassword,createUserWithEmailAndPassword } from "firebase/auth";
+import { getDatabase, ref, set } from "firebase/database";
 import { DataContext } from "../../context/DataProvider"
 
 const Component = styled(Box)`
